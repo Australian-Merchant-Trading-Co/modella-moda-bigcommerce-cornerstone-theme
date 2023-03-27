@@ -64,6 +64,11 @@
             "group": "i18n.SourceSansPro",
             "label": "i18n.SourceSansPro",
             "value": "Google_Source+Sans+Pro_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
         ]
       },
@@ -162,7 +167,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2251,7 +2262,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2303,7 +2320,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2373,7 +2396,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2425,7 +2454,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2477,7 +2512,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2538,7 +2579,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {
@@ -2649,7 +2696,13 @@
             "group": "i18n.Volkhov",
             "label": "i18n.Volkhov",
             "value": "Google_Volkhov_400"
+          },
+          {
+            "group": "i18n.ElMessiri",
+            "label": "i18n.ElMessiri",
+            "value": "Google_El+Messiri_400"
           }
+
         ]
       },
       {

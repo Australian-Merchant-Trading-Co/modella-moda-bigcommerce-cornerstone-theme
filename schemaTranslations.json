@@ -237,6 +237,23 @@
     "no": "Source Sans Pro",
     "ko": "Source Sans Pro"
   },
+  "i18n.ElMessiri": {
+    "default": "El Messiri",
+    "fr": "El Messiri",
+    "it": "El Messiri",
+    "zh": "El Messiri",
+    "de": "El Messiri",
+    "es": "El Messiri",
+    "nl": "El Messiri",
+    "pt": "El Messiri",
+    "pt-BR": "El Messiri",
+    "sv": "El Messiri",
+    "es-MX": "El Messiri",
+    "es-419": "El Messiri",
+    "da": "El Messiri",
+    "no": "El Messiri",
+    "ko": "El Messiri"
+  },
   "i18n.BodyTextFontSize": {
     "default": "Body text font size",
     "fr": "Taille de la police du corps de texte",
