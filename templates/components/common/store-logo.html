@@ -5,7 +5,12 @@
              src="{{getImage settings.store_logo.image 'logo_size'}}"
              alt="{{settings.store_logo.title}}"
              title="{{settings.store_logo.title}}">
-        {{else}}
+        {{else if theme_settings.use_svg_logo}}
+        <img class="header-logo-image-container"
+            src="{{cdn 'img/logo.svg'}}"
+            alt="{{settings.store_logo.title}}"
+            title="{{settings.store_logo.title}}">
+        {{ else }}
         <div class="header-logo-image-container">
             <img class="header-logo-image"
                  src="{{getImage settings.store_logo.image 'logo_size'}}"
