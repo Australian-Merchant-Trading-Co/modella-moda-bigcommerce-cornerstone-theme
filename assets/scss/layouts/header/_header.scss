@@ -73,7 +73,7 @@
 
     @include breakpoint("medium") {
         height: auto;
-        margin: (spacing("double") + spacing("base")) auto (spacing("double") + spacing("single"));
+        margin: (spacing("base") + spacing("base")) auto spacing("single");
         padding: 0;
 
         .header.fixed & {
@@ -181,6 +181,15 @@
     }
 }
 
+.header-logo-image-svg {
+    position: relative;
+    height: 100%;
+
+    @include breakpoint("medium") {
+        min-height: get-height(stencilString("logo_size"));
+    }
+}
+
 .header-logo-image-container::after {
     content: "";
     display: block;
@@ -204,18 +213,6 @@
     }
 }
 
-.header-logo-svg {
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-    max-height: remCalc($header-height) - $header-logo-marginVertical * 2;
-    max-width: 100%;
-    width: auto;
-
-    @include breakpoint("medium") {
-        max-height: none;
-    }
-}
 
 //
 // Mobile Menu Toggle
