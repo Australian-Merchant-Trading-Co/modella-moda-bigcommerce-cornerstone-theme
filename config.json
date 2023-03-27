@@ -91,6 +91,7 @@
     "logo-position": "center",
     "logo_size": "250x100",
     "logo_fontSize": 28,
+    "use_svg_logo": true,
     "brand_size": "190x250",
     "gallery_size": "300x300",
     "productgallery_size": "500x659",

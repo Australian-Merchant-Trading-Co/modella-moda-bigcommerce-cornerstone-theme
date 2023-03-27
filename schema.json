@@ -718,6 +718,11 @@
         "id": "storeName-color"
       },
       {
+        "type": "checkbox",
+        "label": "i18n.UseSVGLogo",
+        "id": "use_svg_logo"
+      },
+      {
         "type": "heading",
         "content": "i18n.UtilityNavigation"
       },

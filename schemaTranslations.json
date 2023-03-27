@@ -1444,6 +1444,23 @@
     "no": "Tekstfarge for logo",
     "ko": "로고 텍스트 색상"
   },
+  "i18n.UseSVGLogo": {
+    "default": "Use SVG logo",
+    "fr": "Utiliser le logo SVG",
+    "it": "Usa il logo SVG",
+    "zh": "使用SVG徽标",
+    "de": "SVG-Logo verwenden",
+    "es": "Usar logotipo SVG",
+    "nl": "Gebruik SVG-logo",
+    "pt": "Usar logotipo SVG",
+    "pt-BR": "Usar logotipo SVG",
+    "sv": "Använd SVG-logotyp",
+    "es-MX": "Usar logotipo SVG",
+    "es-419": "Usar logotipo SVG",
+    "da": "Brug SVG-logo",
+    "no": "Bruk SVG-logo",
+    "ko": "SVG 로고 사용"
+  },
   "i18n.UtilityNavigation": {
     "default": "Utility navigation",
     "fr": "Menu de navigation",
