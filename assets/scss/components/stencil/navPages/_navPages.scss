@@ -186,11 +186,12 @@
 .navPages-action {
     color: stencilColor("navPages-color");
     display: block;
-    font-size: fontSize("smaller");
-    font-weight: fontWeight("bold");
+    font-size: 1.25rem;
+    // font-weight: fontWeight("bold");
     padding: spacing("half") 0;
+    border-bottom: 2px solid transparent;
     text-decoration: none;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 
     @include breakpoint("medium") {
         display: inline-block;
@@ -209,6 +210,10 @@
         }
     }
 
+    &.is-open {
+        color: $navPage-subMenu-item--is-highlighted-color;
+    }
+
     &.is-open,
     .collapsible-icon-wrapper.is-open {
         svg {
@@ -220,6 +225,8 @@
     &:hover,
     &.activePage {
         color: $navPage-subMenu-item--is-highlighted-color;
+
+        border-bottom: 2px solid $navPage-subMenu-item--is-highlighted-color;
 
         svg {
             fill: $navPage-subMenu-item--is-highlighted-color;
@@ -440,6 +447,10 @@
 .navPage-childList-action {
     font-weight: fontWeight("normal");
     padding: 0 0 spacing("quarter");
+
+    &:hover {
+        border-bottom: 2px solid transparent;
+    }
 }
 
 

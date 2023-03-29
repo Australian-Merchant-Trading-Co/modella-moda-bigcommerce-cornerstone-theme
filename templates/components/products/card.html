@@ -109,7 +109,7 @@
                 {{/unless}}
                 {{#if show_compare}}
                     <label class="button button--small card-figcaption-button" for="compare-{{id}}">
-                        {{lang 'products.compare'}} <input type="checkbox" name="products[]" value="{{id}}" id="compare-{{id}}" data-compare-id="{{id}}">
+                        <input type="checkbox" name="products[]" value="{{id}}" id="compare-{{id}}" data-compare-id="{{id}}"> {{lang 'products.compare'}} 
                     </label>
                 {{/if}}
                 {{#if show_cart_action}}

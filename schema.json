@@ -121,6 +121,11 @@
       },
       {
         "type": "color",
+        "label": "i18n.FooterTextColor",
+        "id": "color-footerTextColor"
+      },
+      {
+        "type": "color",
         "label": "i18n.LinkColor",
         "id": "color-textLink"
       },

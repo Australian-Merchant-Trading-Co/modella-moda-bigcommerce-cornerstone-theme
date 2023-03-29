@@ -73,14 +73,15 @@
 
 .navUser-action {
     color: stencilColor("navUser-color");
-    font-weight: fontWeight("bold");
+    // font-weight: fontWeight("bold");
     padding: spacing("base") spacing("half");
     text-decoration: none;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 
     &:hover,
     &.is-open {
         color: stencilColor("navUser-color-hover");
+        text-decoration: underline;
 
         svg {
             fill: stencilColor("navUser-color-hover");
@@ -296,7 +297,7 @@
     }
 
     .form-input {
-        font-size: fontSize("small");
+        font-size: 1.15rem;
         height: unset;
     }
 

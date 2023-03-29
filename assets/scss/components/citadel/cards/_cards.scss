@@ -101,13 +101,18 @@
 }
 
 .card-figcaption-button {
-    border: $card-figcaption-button-border;
+    border: 1px solid $card-figcaption-button-border;
     display: $card-figcaption-button-display;
     margin: $card-figcaption-button-margin;
+    width: 100%;
 
     &:active {
         background-color: $card-figcaption-button-backgroundHover;
         border: $card-figcaption-button-border;
+    }
+
+    input[type="checkbox"] {
+        margin: auto;
     }
 
     .card-figcaption-body & {
